@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(225, 225, 225);
+}
+
+.content {
+  max-width: 800px;
+  text-align: center;
+  margin: 0px auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-fluid.content-nav {
+  background-color: green;
+  display: flex;
+  align-items: space-between;
+}

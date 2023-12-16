@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(225, 225, 225);
+}
+
+.content-wrapper {
+  min-height: 90vh;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.content {
+  margin: 0 20px;
+  background-color: white;
+  box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.content .header > * {
+  margin: 0px;
+}
+
+.content .header h1 {
+  font-size: 40px;
+}
+
+.content .header p {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.error {
+  background-color: rgba(255, 86, 86, 0.602);
+  padding: 20px 10px;
+  border-radius: 7px;
+}
+
+.success {
+  background-color: rgba(86, 255, 86, 0.602);
+  padding: 20px 10px;
+  border-radius: 7px;
+}
+
+.fg-pw {
+  margin-top: -20px;
+  margin-bottom: 50px;
+}
+
+.fg-pw a {
+  color: black;
+  text-decoration: none;
+}
+
+.fg-pw a:hover {
+  color: rgba(0, 0, 0, 0.303);
+}
+
+.sg-up {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.sg-up a {
+  color: blue;
+  text-decoration: none;
+}
+
+.sg-up a:hover {
+  color: rgba(0, 0, 0, 0.303);
+}
